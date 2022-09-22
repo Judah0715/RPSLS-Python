@@ -1,2 +1,2 @@
 # RPSLS-Python
-RPSLS game in Python 
+Rock, Paper, scissors, Lizard, Spock, game in Python 
