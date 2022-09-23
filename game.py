@@ -32,4 +32,13 @@ class Game():
                 self.player_two.choose_gesture()
                 self.compare_gestures()
                 self.display_winner()
+
+
+        def display_winner(self):
+            if (self.player_one.player_score == 2):
+                print(f"{self.player_one.name} wins the game!")
+
+            elif (self.player_two.player_score ==2):
+                print(f"{self.player_two.name} wins the game!")
+
                 
